@@ -6,12 +6,12 @@ const First = () => {
     <View style={{backgroundColor:""}}>
       <Text style={{color:'red',fontSize:50 ,width:"80%",alignSelf:"center",}}>CALCULATOR</Text>
       <View>
-      <TextInput style={{backgroundColor:"wheat",height:100,width:"90%",borderRadius:10,alignSelf:"center"}}></TextInput>
+      
         <View style={{flexDirection:'row',justifyContent:'space-between',height:90,width:'90%',alignSelf:"center",margin:10}}>
           <Text style={{fontSize:60,height:80,width:'20%',alignSelf:'center',}}>+</Text>
           <Text style={{fontSize:60,height:80,width:'20%',alignSelf:'center'}}>-</Text>
           <Text style={{fontSize:60,height:80,width:'20%',alignSelf:'center'}}>*</Text>
-          <Text style={{fontSize:60,height:80,width:'20%',alignSelf:'center'}}>/</Text>
+          
           
         </View>
         <Text style={{fontSize:60,height:100,alignSelf:'center',}}>=</Text>
